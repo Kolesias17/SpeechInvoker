@@ -26,19 +26,19 @@ Di alguno de los comandos
 
 ### Comandos
 
-congelación
-congela
-fantasma
-muro
-muero de hielo
-pem
-tornado
-presteza
-impacto
-espiritu
-meteoro
-meteorito
-explosión
+- congelación
+- congela
+- fantasma
+- muro
+- muero de hielo
+- pem
+- tornado
+- presteza
+- impacto
+- espiritu
+- meteoro
+- meteorito
+- explosión
 
 ### Problemas
 
