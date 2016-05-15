@@ -1,17 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Speech.Recognition;
-using System.Globalization;
 using System.Diagnostics;
+using System.Globalization;
 using System.Runtime.InteropServices;
+using System.Speech.Recognition;
 using System.Threading;
+using System.Windows.Forms;
 
 namespace SpeechDota
 {
@@ -27,13 +20,7 @@ namespace SpeechDota
 		public static extern int SetForegroundWindow( IntPtr hWnd );
 
 		[DllImport( "user32.dll" )]
-		public static extern bool PostMessage( IntPtr hWnd, UInt32 Msg, int wParam, int lParam );
-
-		[DllImport( "user32.dll" )]
 		public static extern bool SendMessage( IntPtr hWnd, UInt32 Msg, int wParam, int lParam );
-
-		[DllImport( "user32.dll" )]
-		private static extern short VkKeyScan( char ch );
 
 		const UInt32 WM_KEYDOWN = 0x0100;
 		const UInt32 WM_KEYUP = 0x0101;
